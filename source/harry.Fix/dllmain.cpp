@@ -10,6 +10,7 @@ namespace harryFix {
 
     void readIniSettings() {
         CIniReader iniReader("");
+
         resX = iniReader.ReadInteger("MAIN", "resX", -1);
         resY = iniReader.ReadInteger("MAIN", "resY", -1);
     }

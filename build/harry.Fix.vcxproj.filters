@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\external\hooking\Hooking.Patterns.h">
+    <ClInclude Include="..\external\Hooking.Patterns\Hooking.Patterns.h">
       <Filter>external\hooking</Filter>
     </ClInclude>
     <ClInclude Include="..\includes\stdafx.h">
@@ -26,7 +26,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\external\hooking\Hooking.Patterns.cpp">
+    <ClCompile Include="..\external\Hooking.Patterns\Hooking.Patterns.cpp">
       <Filter>external\hooking</Filter>
     </ClCompile>
     <ClCompile Include="..\includes\stdafx.cpp">

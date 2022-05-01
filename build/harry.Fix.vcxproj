@@ -70,11 +70,11 @@
     </BuildLog>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\external\hooking\Hooking.Patterns.h" />
+    <ClInclude Include="..\external\Hooking.Patterns\Hooking.Patterns.h" />
     <ClInclude Include="..\includes\stdafx.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\external\hooking\Hooking.Patterns.cpp" />
+    <ClCompile Include="..\external\Hooking.Patterns\Hooking.Patterns.cpp" />
     <ClCompile Include="..\includes\stdafx.cpp" />
     <ClCompile Include="..\source\harry.Fix\dllmain.cpp" />
   </ItemGroup>

@@ -22,7 +22,7 @@
 #include "injector\assembly.hpp"
 #endif
 #include "injector\utility.hpp"
-#include "Hooking.Patterns.h"
+#include "..\Hooking.Patterns\Hooking.Patterns.h"
 #include "log.h"
 #include "ModuleList.hpp"
 #include <filesystem>
