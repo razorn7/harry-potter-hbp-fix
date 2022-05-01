@@ -1,2 +1,2 @@
-# Harry-Potter-HBP---Resolution-Fix
-Um plugin que corrige a resolução do jogo utilizando engenharia reversa e o Ultimate Asi Loader.
+## Harry Potter HBP Resolution Fix
+A plugin that fixes game resolution using reverse engineering and [Ultimate Asi Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader).
