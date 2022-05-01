@@ -1,0 +1,24 @@
+[submodule "external/asmjit"]
+	path = external/asmjit
+	url = https://github.com/asmjit/asmjit
+[submodule "external/filewatch"]
+	path = external/filewatch
+	url = https://github.com/ThomasMonkman/filewatch
+[submodule "external/Hooking.Patterns"]
+	path = external/Hooking.Patterns
+	url = https://github.com/ThirteenAG/Hooking.Patterns/
+[submodule "external/IniReader"]
+	path = external/IniReader
+	url = https://github.com/ThirteenAG/IniReader
+[submodule "external/injector"]
+	path = external/injector
+	url = https://github.com/thelink2012/injector/
+[submodule "external/minidx9"]
+	path = external/minidx9
+	url = https://github.com/hrydgard/minidx9
+[submodule "external/spdlog"]
+	path = external/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "external/ModUtils"]
+	path = external/ModUtils
+	url = https://github.com/CookiePLMonster/ModUtils
