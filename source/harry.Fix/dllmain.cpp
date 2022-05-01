@@ -1,8 +1,7 @@
-#include "stdafx.h"
-#include <d3d9.h>
-#include <control.h>
 #include <iostream>
 #include <Windows.h>
+
+#include "stdafx.h"
 #include "IniReader.h"
 
 namespace harryFix {
@@ -15,7 +14,7 @@ namespace harryFix {
         resY = iniReader.ReadInteger("MAIN", "resY", -1);
     }
 
-    void applyIniSettings() {
+    void applyResolution() {
         if (!resX || !resY) {
             std::tie(resX, resY) = GetDesktopRes();
         }
@@ -28,6 +27,10 @@ namespace harryFix {
         injector::WriteMemory(res.count(1).get(0).get<uint32_t>(3), resX, true); //0x64C948 + 0x3
         injector::WriteMemory(res.count(1).get(0).get<uint32_t>(10), resY, true); //0x64C94F + 0x3
         injector::WriteMemory(res2.count(1).get(0).get<uint32_t>(3), 168, true); //0x64C955 + 0x3
+    }
+
+    void applyIniSettings() {
+        applyResolution();
     }
 
     void Init() {
